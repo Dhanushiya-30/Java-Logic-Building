@@ -19,30 +19,25 @@ class MonthlyBudgetPlanner{
         double total=rent+food+trans+shop+movies+funds;
         double bal=income - total;
 
-        System.out.println();
+        
 
-        System.out.println("======================================");
+        System.out.println("\n======================================");
         System.out.println("        MONTHLY BUDGET PLANNER        ");
         System.out.println("======================================");
-        System.out.println();
-        System.out.println("Income            : "+income);
-        System.out.println();
-        System.out.println("BASIC NEEDS");
+        System.out.println("\nIncome            : "+income);
+        System.out.println("\nBASIC NEEDS");
         System.out.println("--------------------------------------");
         System.out.println("Rent              : "+rent);
         System.out.println("Food              : "+food);
         System.out.println("Transport         : "+trans);
-        System.out.println();
-        System.out.println("EXTRA EXPENSES");
+        System.out.println("\nEXTRA EXPENSES");
         System.out.println("--------------------------------------");
         System.out.println("Shopping          : "+shop);
         System.out.println("Movies            : "+movies);
-        System.out.println();
-        System.out.println("INVESTMENTS");
+        System.out.println("\nINVESTMENTS");
         System.out.println("--------------------------------------");
         System.out.println("Mutual Funds      : "+funds);
-        System.out.println();
-        System.out.println("--------------------------------------");
+        System.out.println("\n--------------------------------------");
         System.out.println("Total Expenses    : "+total);
         System.out.println("Balance Available : "+bal);
         System.out.println("======================================");
